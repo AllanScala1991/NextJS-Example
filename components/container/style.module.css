@@ -1,0 +1,34 @@
+.container{
+    width: 140vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+}
+
+.boxLeft, .boxRight{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2vh;
+}
+
+.boxLeft{
+    width: 70vh;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.boxRight{
+    width: 80vh;
+    background-color: #161616;
+    background-image: url('../../public/loginGIF.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0vh 2vh 2vh 0vh;
+    justify-content: end;
+}

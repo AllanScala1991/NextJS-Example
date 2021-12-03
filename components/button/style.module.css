@@ -1,0 +1,12 @@
+.buttons{
+    width: 30vh;
+    height: 5vh;
+    margin-top: 3vh;
+    border: none;
+    border-radius: 1vh;
+    background-color: #161616;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+}
